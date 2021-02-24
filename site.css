@@ -1,0 +1,76 @@
+body {	
+	color: white;
+	background-color: #C0C0C0;
+	font-family: times;
+	padding: 20px;
+}
+		
+h1, h2 {
+	background-color: #CE4257;
+	padding: 10px;
+	border: medium solid black;
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+}
+	
+h3, h4 {
+	font-size: 18px;
+	background-color: gray;		
+	padding: 5px;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #ADD8E6;
+}
+	
+p {
+	border: medium solid black;
+	border-color: white;
+	padding: 8px;
+	font-size: 16px;
+	background-color: #3C6E71;
+}
+	
+ol {
+	font-size: 15px;
+	border: thin solid black;
+	background-color: #3C6E71;
+	padding: 10px, 10px;
+}
+
+img {
+	border: thick solid black;
+	border-color: #CE4257;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #CE4257;
+  color: white;
+}
