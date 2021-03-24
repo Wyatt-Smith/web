@@ -45,6 +45,11 @@ img {
 	border-color: #CE4257;
 }
 
+table, th, td {
+	border: 1px solid #666;
+    padding: 10px;
+}
+
 .image {
 	display: flex;
 	justify-content: center;
